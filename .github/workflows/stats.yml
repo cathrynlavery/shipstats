@@ -1,0 +1,29 @@
+name: Generate Ship Stats
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats
+        env:
+          GITHUB_USERNAME: ${{ vars.STATS_USERNAME }}
+          GH_TOKEN: ${{ secrets.STATS_PAT }}
+          OUT_DIR: dist
+        run: node scripts/generate.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          force_orphan: true
