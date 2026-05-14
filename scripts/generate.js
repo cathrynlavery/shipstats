@@ -239,6 +239,48 @@ function fmt(n) {
   return n.toLocaleString("en-US");
 }
 
+const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet">`;
+
+const BASE_CSS = `
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Geist Mono', 'Courier New', monospace;
+      background: #fff;
+      color: #111;
+      min-height: 100vh;
+      padding: 64px 32px 96px;
+    }
+    .wrap { max-width: 480px; margin: 0 auto; }
+    .date { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #aaa; margin-bottom: 20px; }
+    .hero-num {
+      font-family: 'Geist', sans-serif;
+      font-size: 96px; font-weight: 400; color: #000;
+      line-height: 1; letter-spacing: -0.03em;
+    }
+    .hero-sub { font-size: 11px; color: #aaa; margin-top: 12px; letter-spacing: .06em; text-transform: uppercase; }
+    .section { margin-top: 64px; }
+    .section-head {
+      font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+      color: #aaa; border-top: 1px solid #000; padding-top: 12px; margin-bottom: 0;
+    }
+    .row {
+      display: flex; justify-content: space-between; align-items: baseline;
+      padding: 11px 0; border-bottom: 1px solid #ebebeb;
+    }
+    .label { font-size: 12px; color: #666; }
+    .val { font-size: 12px; color: #000; font-weight: 500; }
+    .sub-num {
+      font-family: 'Geist', sans-serif;
+      font-size: 48px; font-weight: 400; color: #000;
+      line-height: 1; letter-spacing: -0.03em; margin: 20px 0 6px;
+    }
+    .empty { font-size: 11px; color: #ccc; padding: 14px 0; letter-spacing: .06em; text-transform: uppercase; }
+    .permalink { margin-top: 72px; font-size: 11px; letter-spacing: .06em; }
+    .permalink a { color: #aaa; text-decoration: none; border-bottom: 1px solid #e0e0e0; padding-bottom: 1px; }
+    .permalink a:hover { color: #000; border-color: #000; }`;
+
 function repoList(entries, displayName) {
   if (!entries.length) return `<p class="empty">nothing yet</p>`;
   return entries
@@ -272,41 +314,13 @@ function renderPage({
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${isSnapshot ? todayStr : "shipstats"}</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Courier New', Courier, monospace;
-      background: #0d0d0d;
-      color: #d4d4d4;
-      min-height: 100vh;
-      padding: 56px 24px 80px;
-    }
-    .wrap { max-width: 480px; margin: 0 auto; }
-    .eyebrow { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #444; margin-bottom: 10px; }
-    .hero-num { font-size: 80px; font-weight: 700; color: #fff; line-height: 1; }
-    .hero-sub { font-size: 13px; color: #555; margin-top: 6px; }
-    .section { margin-top: 48px; }
-    .section-head {
-      font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
-      color: #383838; border-bottom: 1px solid #1c1c1c; padding-bottom: 8px; margin-bottom: 4px;
-    }
-    .row {
-      display: flex; justify-content: space-between; align-items: baseline;
-      padding: 9px 0; border-bottom: 1px solid #161616;
-    }
-    .row:last-child { border-bottom: none; }
-    .label { font-size: 13px; color: #888; }
-    .val { font-size: 13px; color: #4ade80; font-weight: 700; }
-    .week-num { font-size: 36px; font-weight: 700; color: #fff; margin-bottom: 4px; }
-    .empty { font-size: 13px; color: #2a2a2a; padding: 12px 0; }
-    .permalink { margin-top: 56px; font-size: 11px; }
-    .permalink a { color: #333; text-decoration: none; border-bottom: 1px solid #222; }
-    .permalink a:hover { color: #555; }
+  ${FONTS}
+  <style>${BASE_CSS}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="eyebrow">${todayStr}</div>
+    <div class="date">${todayStr}</div>
     <div class="hero-num">${todayTotal > 0 ? "+" + fmt(todayTotal) : "0"}</div>
     <div class="hero-sub">lines shipped today</div>
 
@@ -317,8 +331,8 @@ function renderPage({
 
     <div class="section">
       <div class="section-head">this week</div>
-      <div class="week-num">+${fmt(weekTotal)}</div>
-      <div class="hero-sub" style="margin-bottom:20px">lines total</div>
+      <div class="sub-num">+${fmt(weekTotal)}</div>
+      <div class="hero-sub" style="margin-bottom:24px">lines total</div>
       ${repoList(weekEntries.slice(0, 8), displayName)}
     </div>
 
@@ -351,37 +365,13 @@ function renderWeekPage({
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${weekLabel} — shipstats</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Courier New', Courier, monospace;
-      background: #0d0d0d;
-      color: #d4d4d4;
-      min-height: 100vh;
-      padding: 56px 24px 80px;
-    }
-    .wrap { max-width: 480px; margin: 0 auto; }
-    .eyebrow { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #444; margin-bottom: 10px; }
-    .hero-num { font-size: 80px; font-weight: 700; color: #fff; line-height: 1; }
-    .hero-sub { font-size: 13px; color: #555; margin-top: 6px; }
-    .section { margin-top: 48px; }
-    .section-head {
-      font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
-      color: #383838; border-bottom: 1px solid #1c1c1c; padding-bottom: 8px; margin-bottom: 4px;
-    }
-    .row {
-      display: flex; justify-content: space-between; align-items: baseline;
-      padding: 9px 0; border-bottom: 1px solid #161616;
-    }
-    .row:last-child { border-bottom: none; }
-    .label { font-size: 13px; color: #888; }
-    .val { font-size: 13px; color: #4ade80; font-weight: 700; }
-    .empty { font-size: 13px; color: #2a2a2a; padding: 12px 0; }
+  ${FONTS}
+  <style>${BASE_CSS}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="eyebrow">${weekLabel}</div>
+    <div class="date">${weekLabel}</div>
     <div class="hero-num">+${fmt(weekTotal)}</div>
     <div class="hero-sub">lines shipped this week</div>
 
