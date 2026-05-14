@@ -106,65 +106,57 @@ function getISOWeek(date) {
 async function main() {
   const now = new Date();
   const todayStr = now.toISOString().split("T")[0];
-  const weekAgoStr = new Date(now - 7 * 24 * 60 * 60 * 1000)
-    .toISOString()
-    .split("T")[0];
+  const weekAgoISO = new Date(now - 7 * 24 * 60 * 60 * 1000).toISOString();
 
-  console.log(`Fetching events for ${USERNAME} (today: ${todayStr})`);
+  console.log(`Fetching stats for ${USERNAME} (today: ${todayStr})`);
 
-  // Collect push events from the last 7 days
-  let allEvents = [];
-  for (let page = 1; page <= 3; page++) {
-    const events = await githubGet(
-      `/users/${USERNAME}/events?per_page=100&page=${page}`,
+  // Get all repos pushed to in the last week
+  let allRepos = [];
+  for (let page = 1; page <= 5; page++) {
+    const batch = await githubGet(
+      `/user/repos?per_page=100&sort=pushed&direction=desc&page=${page}`,
     );
-    if (!events?.length) break;
-    allEvents = allEvents.concat(events);
-    const oldest = events[events.length - 1];
-    if (oldest?.created_at < weekAgoStr) break;
+    if (!batch?.length) break;
+    allRepos = allRepos.concat(batch);
+    const oldest = batch[batch.length - 1];
+    if (oldest?.pushed_at && oldest.pushed_at < weekAgoISO) break;
   }
 
-  const pushEvents = allEvents.filter(
-    (e) => e.type === "PushEvent" && e.created_at >= weekAgoStr + "T00:00:00Z",
-  );
+  const activeRepos = allRepos.filter((r) => r.pushed_at >= weekAgoISO);
+  console.log(`Scanning ${activeRepos.length} recently active repos`);
 
-  console.log(`Found ${pushEvents.length} push events`);
-
-  // Map: repoFullName -> { sha -> { date, isPrivate } }
-  const commitsByRepo = {};
-
-  for (const event of pushEvents) {
-    const repoName = event.repo.name; // "owner/repo"
-    if (!commitsByRepo[repoName]) {
-      commitsByRepo[repoName] = {
-        commits: new Map(),
-        isPrivate: !event.public,
-      };
-    }
-    for (const commit of event.payload.commits || []) {
-      commitsByRepo[repoName].commits.set(
-        commit.sha,
-        event.created_at.split("T")[0],
-      );
-    }
-  }
-
-  // Fetch stats per commit
-  // byDay: { date: { repoName: { additions, deletions } } }
+  // byDay: { date: { repoFullName: { additions, deletions } } }
   const byDay = {};
+  const repoMeta = {}; // { repoFullName: { isPrivate } }
 
-  for (const [repoFullName, { commits }] of Object.entries(commitsByRepo)) {
-    const [owner, repo] = repoFullName.split("/");
-    console.log(`  ${repoFullName}: ${commits.size} commits`);
+  for (const repo of activeRepos) {
+    const repoFullName = repo.full_name;
+    repoMeta[repoFullName] = { isPrivate: repo.private };
 
-    for (const [sha, date] of commits) {
-      const stats = await getCommitStats(owner, repo, sha);
+    // Get commits authored by USERNAME in the last 7 days
+    let commits = [];
+    for (let page = 1; page <= 3; page++) {
+      const batch = await githubGet(
+        `/repos/${repoFullName}/commits?author=${USERNAME}&since=${weekAgoISO}&per_page=100&page=${page}`,
+      );
+      if (!batch?.length) break;
+      commits = commits.concat(batch);
+      if (batch.length < 100) break;
+    }
+
+    if (!commits.length) continue;
+    console.log(`  ${repoFullName}: ${commits.length} commits`);
+
+    const [owner, repoName] = repoFullName.split("/");
+    for (const commit of commits) {
+      const date = commit.commit.author.date.split("T")[0];
+      const stats = await getCommitStats(owner, repoName, commit.sha);
       if (!byDay[date]) byDay[date] = {};
       if (!byDay[date][repoFullName])
         byDay[date][repoFullName] = { additions: 0, deletions: 0 };
       byDay[date][repoFullName].additions += stats.additions;
       byDay[date][repoFullName].deletions += stats.deletions;
-      await sleep(80); // gentle on the API
+      await sleep(80);
     }
   }
 
@@ -190,7 +182,7 @@ async function main() {
   );
 
   const displayName = (repoFullName) =>
-    commitsByRepo[repoFullName]?.isPrivate
+    repoMeta[repoFullName]?.isPrivate
       ? wackyName(repoFullName)
       : repoFullName.split("/")[1];
 
