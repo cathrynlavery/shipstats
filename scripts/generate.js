@@ -224,6 +224,22 @@ async function main() {
     renderWeekPage({ weekLabel, weeklyByRepo, weekTotal, displayName, byDay }),
   );
 
+  // stats.json — machine-readable, used by future leaderboard
+  fs.writeFileSync(
+    path.join(OUT_DIR, "stats.json"),
+    JSON.stringify(
+      {
+        username: USERNAME,
+        generated: now.toISOString(),
+        today: { date: todayStr, total: todayTotal, byRepo: todayByRepo },
+        week: { total: weekTotal, byRepo: weeklyByRepo },
+        byDay,
+      },
+      null,
+      2,
+    ),
+  );
+
   console.log(`Done. Today: +${todayTotal} lines. Week: +${weekTotal} lines.`);
 }
 
@@ -245,6 +261,9 @@ const BASE_CSS = `
       padding: 64px 32px 96px;
     }
     .wrap { max-width: 480px; margin: 0 auto; }
+    .handle { font-size: 11px; letter-spacing: .06em; margin-bottom: 48px; }
+    .handle a { color: #111; text-decoration: none; border-bottom: 1px solid #e0e0e0; padding-bottom: 1px; }
+    .handle a:hover { border-color: #000; }
     .date { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #aaa; margin-bottom: 20px; }
     .hero-num {
       font-family: 'Geist', sans-serif;
@@ -269,9 +288,43 @@ const BASE_CSS = `
       line-height: 1; letter-spacing: -0.03em; margin: 20px 0 6px;
     }
     .empty { font-size: 11px; color: #ccc; padding: 14px 0; letter-spacing: .06em; text-transform: uppercase; }
+    .chart { display: flex; gap: 5px; height: 72px; align-items: flex-end; margin-top: 20px; }
+    .bar-col { flex: 1; display: flex; flex-direction: column; align-items: stretch; gap: 8px; height: 100%; }
+    .bar-wrap { flex: 1; display: flex; align-items: flex-end; }
+    .bar { width: 100%; background: #e8e8e8; min-height: 2px; }
+    .bar-active { background: #000; }
+    .bar-day { font-size: 9px; letter-spacing: .06em; color: #ccc; text-align: center; }
+    .bar-day-active { color: #000; }
     .permalink { margin-top: 72px; font-size: 11px; letter-spacing: .06em; }
     .permalink a { color: #aaa; text-decoration: none; border-bottom: 1px solid #e0e0e0; padding-bottom: 1px; }
     .permalink a:hover { color: #000; border-color: #000; }`;
+
+function activityChart(byDay, todayStr) {
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(todayStr + "T12:00:00Z");
+    d.setUTCDate(d.getUTCDate() - i);
+    const dateStr = d.toISOString().split("T")[0];
+    const total = byDay[dateStr]
+      ? Object.values(byDay[dateStr]).reduce((s, r) => s + r.additions, 0)
+      : 0;
+    const dayName = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"][
+      d.getUTCDay()
+    ];
+    days.push({ dateStr, total, dayName });
+  }
+  const maxTotal = Math.max(...days.map((d) => d.total), 1);
+  return `<div class="chart">${days
+    .map(({ dateStr, total, dayName }) => {
+      const pct = ((total / maxTotal) * 100).toFixed(1);
+      const isToday = dateStr === todayStr;
+      return `<div class="bar-col">
+      <div class="bar-wrap"><div class="bar${isToday ? " bar-active" : ""}" style="height:${total > 0 ? pct : "2"}%"></div></div>
+      <div class="bar-day${isToday ? " bar-day-active" : ""}">${dayName}</div>
+    </div>`;
+    })
+    .join("")}</div>`;
+}
 
 function repoList(entries, displayName) {
   if (!entries.length) return `<p class="empty">nothing yet</p>`;
@@ -312,9 +365,15 @@ function renderPage({
 </head>
 <body>
   <div class="wrap">
+    <div class="handle"><a href="https://github.com/${USERNAME}">@${USERNAME}</a></div>
     <div class="date">${todayStr}</div>
     <div class="hero-num">${todayTotal > 0 ? "+" + fmt(todayTotal) : "0"}</div>
     <div class="hero-sub">lines shipped today</div>
+
+    <div class="section">
+      <div class="section-head">last 7 days</div>
+      ${activityChart(byDay, todayStr)}
+    </div>
 
     <div class="section">
       <div class="section-head">today by project</div>
@@ -363,6 +422,7 @@ function renderWeekPage({
 </head>
 <body>
   <div class="wrap">
+    <div class="handle"><a href="https://github.com/${USERNAME}">@${USERNAME}</a></div>
     <div class="date">${weekLabel}</div>
     <div class="hero-num">+${fmt(weekTotal)}</div>
     <div class="hero-sub">lines shipped this week</div>
