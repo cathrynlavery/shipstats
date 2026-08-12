@@ -2,13 +2,7 @@
 "use strict";
 
 const https = require("https");
-const fs = require("fs");
-const path = require("path");
-
-const USERNAME =
-  process.env.GITHUB_USERNAME ||
-  (() => {
-    throw new Error("GITHUB_USERNAME is required");
+const fs = kr("GITHUB_USERNAME is required");
   })();
 const TOKEN = process.env.GH_TOKEN;
 const OUT_DIR = path.resolve(process.env.OUT_DIR || "dist");
