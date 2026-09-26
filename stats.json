@@ -1,0 +1,221 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-09-26T08:21:28.176Z",
+  "today": {
+    "date": "2026-09-26",
+    "total": 6103,
+    "byRepo": {
+      "cathrynlavery/dot-agents": {
+        "additions": 629,
+        "deletions": 20
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 5474,
+        "deletions": 487
+      }
+    }
+  },
+  "week": {
+    "total": 25946753,
+    "byRepo": {
+      "cathrynlavery/dot-agents": {
+        "additions": 139096,
+        "deletions": 90907
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 42333,
+        "deletions": 3263
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 812,
+        "deletions": 271
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 97,
+        "deletions": 9
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 123414,
+        "deletions": 24748
+      },
+      "RonanRx/mocks": {
+        "additions": 661,
+        "deletions": 549
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 147140,
+        "deletions": 4669
+      },
+      "cathrynlavery/cli-printing-press": {
+        "additions": 573,
+        "deletions": 350
+      },
+      "RonanRx/toolkit": {
+        "additions": 4694,
+        "deletions": 204
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 25390450,
+        "deletions": 95310
+      },
+      "cathrynlavery/operator-intel-cli": {
+        "additions": 97026,
+        "deletions": 0
+      },
+      "cathrynlavery/codex-skill": {
+        "additions": 303,
+        "deletions": 27
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 154,
+        "deletions": 0
+      }
+    }
+  },
+  "byDay": {
+    "2026-09-26": {
+      "cathrynlavery/dot-agents": {
+        "additions": 629,
+        "deletions": 20
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 5474,
+        "deletions": 487
+      }
+    },
+    "2026-09-25": {
+      "cathrynlavery/dot-agents": {
+        "additions": 128890,
+        "deletions": 90491
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 14301,
+        "deletions": 1046
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 533,
+        "deletions": 270
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 49,
+        "deletions": 5
+      }
+    },
+    "2026-09-24": {
+      "cathrynlavery/dot-agents": {
+        "additions": 872,
+        "deletions": 38
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 1532,
+        "deletions": 594
+      },
+      "RonanRx/mocks": {
+        "additions": 661,
+        "deletions": 549
+      }
+    },
+    "2026-09-23": {
+      "cathrynlavery/dot-agents": {
+        "additions": 959,
+        "deletions": 42
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 66400,
+        "deletions": 22827
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 279,
+        "deletions": 1
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 443,
+        "deletions": 12
+      },
+      "cathrynlavery/cli-printing-press": {
+        "additions": 573,
+        "deletions": 350
+      }
+    },
+    "2026-09-22": {
+      "cathrynlavery/dot-agents": {
+        "additions": 1203,
+        "deletions": 31
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 5160,
+        "deletions": 49
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 53405,
+        "deletions": 1132
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 48,
+        "deletions": 4
+      },
+      "RonanRx/toolkit": {
+        "additions": 4694,
+        "deletions": 204
+      }
+    },
+    "2026-09-21": {
+      "cathrynlavery/dot-agents": {
+        "additions": 2722,
+        "deletions": 114
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 1085,
+        "deletions": 606
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 2077,
+        "deletions": 195
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 137549,
+        "deletions": 4211
+      }
+    },
+    "2026-09-20": {
+      "cathrynlavery/dot-agents": {
+        "additions": 2245,
+        "deletions": 95
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 11158,
+        "deletions": 542
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 9148,
+        "deletions": 446
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 25390450,
+        "deletions": 95310
+      },
+      "cathrynlavery/operator-intel-cli": {
+        "additions": 97026,
+        "deletions": 0
+      },
+      "cathrynlavery/codex-skill": {
+        "additions": 303,
+        "deletions": 27
+      }
+    },
+    "2026-09-19": {
+      "cathrynlavery/dot-agents": {
+        "additions": 1576,
+        "deletions": 76
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 5155,
+        "deletions": 533
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 154,
+        "deletions": 0
+      }
+    }
+  }
+}
