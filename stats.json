@@ -1,0 +1,301 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-10-10T08:21:44.641Z",
+  "today": {
+    "date": "2026-10-10",
+    "total": 31258,
+    "byRepo": {
+      "cathrynlavery/dot-agents": {
+        "additions": 1814,
+        "deletions": 89
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 26998,
+        "deletions": 812
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 115,
+        "deletions": 51
+      },
+      "mixlayer/cli": {
+        "additions": 263,
+        "deletions": 112
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 3,
+        "deletions": 2
+      },
+      "cathrynlavery/diagramdesign-dev": {
+        "additions": 2065,
+        "deletions": 303
+      }
+    }
+  },
+  "week": {
+    "total": 848790,
+    "byRepo": {
+      "mvanhorn/cli-printing-press": {
+        "additions": 1782,
+        "deletions": 110
+      },
+      "cathrynlavery/dot-agents": {
+        "additions": 20047,
+        "deletions": 1218
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 618215,
+        "deletions": 10717
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 20881,
+        "deletions": 4557
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 26792,
+        "deletions": 4575
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 90271,
+        "deletions": 8
+      },
+      "mixlayer/cli": {
+        "additions": 50441,
+        "deletions": 24903
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 3,
+        "deletions": 2
+      },
+      "cathrynlavery/diagramdesign-dev": {
+        "additions": 7674,
+        "deletions": 686
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 38,
+        "deletions": 12
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 8,
+        "deletions": 8
+      },
+      "mixlayer/mixlayer-www-v2": {
+        "additions": 7,
+        "deletions": 52
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 47,
+        "deletions": 13
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 1,
+        "deletions": 1
+      },
+      "BestSelf-Company/helm-macos": {
+        "additions": 5855,
+        "deletions": 2950
+      },
+      "BestSelf-Company/helm-marketing-site": {
+        "additions": 394,
+        "deletions": 256
+      },
+      "BestSelf-Company/helm-backend": {
+        "additions": 2965,
+        "deletions": 71
+      },
+      "mixlayer/mixlayer": {
+        "additions": 3369,
+        "deletions": 319
+      }
+    }
+  },
+  "byDay": {
+    "2026-10-08": {
+      "mvanhorn/cli-printing-press": {
+        "additions": 1782,
+        "deletions": 110
+      },
+      "cathrynlavery/dot-agents": {
+        "additions": 6583,
+        "deletions": 861
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 8905,
+        "deletions": 215
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 1278,
+        "deletions": 137
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 368,
+        "deletions": 104
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 89914,
+        "deletions": 0
+      }
+    },
+    "2026-10-10": {
+      "cathrynlavery/dot-agents": {
+        "additions": 1814,
+        "deletions": 89
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 26998,
+        "deletions": 812
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 115,
+        "deletions": 51
+      },
+      "mixlayer/cli": {
+        "additions": 263,
+        "deletions": 112
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 3,
+        "deletions": 2
+      },
+      "cathrynlavery/diagramdesign-dev": {
+        "additions": 2065,
+        "deletions": 303
+      }
+    },
+    "2026-10-09": {
+      "cathrynlavery/dot-agents": {
+        "additions": 4309,
+        "deletions": 136
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 14818,
+        "deletions": 312
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 4153,
+        "deletions": 3187
+      },
+      "mixlayer/cli": {
+        "additions": 50178,
+        "deletions": 24791
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 38,
+        "deletions": 12
+      },
+      "cathrynlavery/diagramdesign-dev": {
+        "additions": 1779,
+        "deletions": 265
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 8,
+        "deletions": 8
+      },
+      "mixlayer/mixlayer-www-v2": {
+        "additions": 7,
+        "deletions": 52
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 6300,
+        "deletions": 125
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 47,
+        "deletions": 13
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 357,
+        "deletions": 8
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 1,
+        "deletions": 1
+      }
+    },
+    "2026-10-07": {
+      "cathrynlavery/dot-agents": {
+        "additions": 4130,
+        "deletions": 66
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 81946,
+        "deletions": 2420
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 419,
+        "deletions": 31
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 1843,
+        "deletions": 1509
+      },
+      "BestSelf-Company/helm-macos": {
+        "additions": 2407,
+        "deletions": 1016
+      },
+      "BestSelf-Company/helm-marketing-site": {
+        "additions": 394,
+        "deletions": 256
+      },
+      "BestSelf-Company/helm-backend": {
+        "additions": 2965,
+        "deletions": 71
+      }
+    },
+    "2026-10-06": {
+      "cathrynlavery/dot-agents": {
+        "additions": 3211,
+        "deletions": 66
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 485548,
+        "deletions": 6958
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 5610,
+        "deletions": 714
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 442,
+        "deletions": 151
+      },
+      "mixlayer/mixlayer": {
+        "additions": 3102,
+        "deletions": 297
+      },
+      "BestSelf-Company/helm-macos": {
+        "additions": 3448,
+        "deletions": 1934
+      }
+    },
+    "2026-10-05": {
+      "cathrynlavery/diagram-design": {
+        "additions": 9306,
+        "deletions": 437
+      },
+      "cathrynlavery/diagramdesign-dev": {
+        "additions": 3830,
+        "deletions": 118
+      },
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 9296,
+        "deletions": 1075
+      },
+      "mixlayer/mixlayer": {
+        "additions": 267,
+        "deletions": 22
+      }
+    },
+    "2026-10-01": {
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 368,
+        "deletions": 104
+      }
+    },
+    "2026-10-04": {
+      "BestSelf-Company/Helm-iOS": {
+        "additions": 8175,
+        "deletions": 1507
+      }
+    }
+  }
+}
