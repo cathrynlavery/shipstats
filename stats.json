@@ -1,0 +1,443 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-10-24T08:19:28.496Z",
+  "today": {
+    "date": "2026-10-24",
+    "total": 1031,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 459,
+        "deletions": 30
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 542,
+        "deletions": 66
+      },
+      "mixlayer/console-v3": {
+        "additions": 18,
+        "deletions": 3
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 6,
+        "deletions": 6
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 6,
+        "deletions": 6
+      }
+    }
+  },
+  "week": {
+    "total": 1215265,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 36708,
+        "deletions": 2133
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 363016,
+        "deletions": 599
+      },
+      "mixlayer/console-v3": {
+        "additions": 273,
+        "deletions": 14
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 364727,
+        "deletions": 36830
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 97,
+        "deletions": 44
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 26,
+        "deletions": 34
+      },
+      "LittleMight-hq/littlemight-products": {
+        "additions": 3559,
+        "deletions": 1139
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 537,
+        "deletions": 84
+      },
+      "BestSelf-Company/helm-focus-app": {
+        "additions": 414,
+        "deletions": 56
+      },
+      "cathrynlavery/skills": {
+        "additions": 733,
+        "deletions": 24
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 798,
+        "deletions": 66
+      },
+      "mixlayer/cli": {
+        "additions": 408,
+        "deletions": 54
+      },
+      "LittleMight-hq/yap-studio": {
+        "additions": 307709,
+        "deletions": 20767
+      },
+      "BestSelf-Company/helm-platform": {
+        "additions": 10836,
+        "deletions": 2588
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 6123,
+        "deletions": 703
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 3041,
+        "deletions": 183
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 383,
+        "deletions": 42
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 1046,
+        "deletions": 129
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 27,
+        "deletions": 1
+      },
+      "LittleMight-hq/yap-studio-private": {
+        "additions": 3808,
+        "deletions": 2
+      },
+      "RonanRx/scan-to-print-plan": {
+        "additions": 1049,
+        "deletions": 7
+      },
+      "LittleMight-hq/diagramdesign-dev": {
+        "additions": 65,
+        "deletions": 57
+      },
+      "mixlayer/mixlayer-infra": {
+        "additions": 32,
+        "deletions": 2
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 2,
+        "deletions": 2
+      },
+      "LittleMight-hq/site-lab": {
+        "additions": 44445,
+        "deletions": 0
+      },
+      "LittleMight-hq/tiered-simple-app-bestself-discount-tiered": {
+        "additions": 28915,
+        "deletions": 0
+      },
+      "LittleMight-hq/bestself-discount-tiered": {
+        "additions": 18691,
+        "deletions": 0
+      },
+      "LittleMight-hq/beat-claude": {
+        "additions": 948,
+        "deletions": 60
+      },
+      "LittleMight-hq/minutes-assistant-studio": {
+        "additions": 13834,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-studio": {
+        "additions": 449,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-knox": {
+        "additions": 434,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-main": {
+        "additions": 432,
+        "deletions": 0
+      },
+      "LittleMight-hq/home-docs": {
+        "additions": 1108,
+        "deletions": 0
+      },
+      "LittleMight-hq/clawd": {
+        "additions": 592,
+        "deletions": 0
+      }
+    }
+  },
+  "byDay": {
+    "2026-10-24": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 459,
+        "deletions": 30
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 542,
+        "deletions": 66
+      },
+      "mixlayer/console-v3": {
+        "additions": 18,
+        "deletions": 3
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 6,
+        "deletions": 6
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 6,
+        "deletions": 6
+      }
+    },
+    "2026-10-23": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 4481,
+        "deletions": 218
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 362474,
+        "deletions": 533
+      },
+      "mixlayer/console-v3": {
+        "additions": 18,
+        "deletions": 3
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 21403,
+        "deletions": 2751
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 25,
+        "deletions": 33
+      },
+      "LittleMight-hq/littlemight-products": {
+        "additions": 3260,
+        "deletions": 1062
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 217,
+        "deletions": 72
+      },
+      "BestSelf-Company/helm-focus-app": {
+        "additions": 185,
+        "deletions": 29
+      },
+      "cathrynlavery/skills": {
+        "additions": 321,
+        "deletions": 6
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 325,
+        "deletions": 6
+      },
+      "mixlayer/cli": {
+        "additions": 164,
+        "deletions": 46
+      },
+      "LittleMight-hq/yap-studio": {
+        "additions": 14341,
+        "deletions": 1287
+      },
+      "BestSelf-Company/helm-platform": {
+        "additions": 1292,
+        "deletions": 134
+      }
+    },
+    "2026-10-22": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 11610,
+        "deletions": 1502
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 33881,
+        "deletions": 2222
+      },
+      "LittleMight-hq/littlemight-products": {
+        "additions": 299,
+        "deletions": 77
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 2126,
+        "deletions": 68
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 259,
+        "deletions": 10
+      },
+      "BestSelf-Company/helm-focus-app": {
+        "additions": 229,
+        "deletions": 27
+      },
+      "cathrynlavery/skills": {
+        "additions": 412,
+        "deletions": 18
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 473,
+        "deletions": 60
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 3041,
+        "deletions": 183
+      },
+      "LittleMight-hq/yap-studio": {
+        "additions": 59161,
+        "deletions": 3880
+      },
+      "BestSelf-Company/helm-platform": {
+        "additions": 2043,
+        "deletions": 241
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 383,
+        "deletions": 42
+      }
+    },
+    "2026-10-21": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 17637,
+        "deletions": 346
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 161,
+        "deletions": 64
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 31060,
+        "deletions": 11569
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 91,
+        "deletions": 38
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 27,
+        "deletions": 1
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 1,
+        "deletions": 1
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 3997,
+        "deletions": 635
+      },
+      "LittleMight-hq/yap-studio": {
+        "additions": 234207,
+        "deletions": 15600
+      },
+      "BestSelf-Company/helm-platform": {
+        "additions": 2635,
+        "deletions": 170
+      },
+      "LittleMight-hq/yap-studio-private": {
+        "additions": 3808,
+        "deletions": 2
+      },
+      "RonanRx/scan-to-print-plan": {
+        "additions": 1049,
+        "deletions": 7
+      },
+      "LittleMight-hq/diagramdesign-dev": {
+        "additions": 65,
+        "deletions": 57
+      }
+    },
+    "2026-10-20": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 2521,
+        "deletions": 37
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 133,
+        "deletions": 31
+      },
+      "mixlayer/mixlayer-infra": {
+        "additions": 32,
+        "deletions": 2
+      },
+      "mixlayer/console-v3": {
+        "additions": 237,
+        "deletions": 8
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 30493,
+        "deletions": 6753
+      },
+      "BestSelf-Company/helm-platform": {
+        "additions": 4866,
+        "deletions": 2043
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 2,
+        "deletions": 2
+      }
+    },
+    "2026-10-19": {
+      "RonanRx/ronanrx-core": {
+        "additions": 752,
+        "deletions": 34
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 204697,
+        "deletions": 11484
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 61,
+        "deletions": 2
+      },
+      "mixlayer/cli": {
+        "additions": 244,
+        "deletions": 8
+      },
+      "LittleMight-hq/site-lab": {
+        "additions": 44445,
+        "deletions": 0
+      },
+      "LittleMight-hq/tiered-simple-app-bestself-discount-tiered": {
+        "additions": 28915,
+        "deletions": 0
+      },
+      "LittleMight-hq/bestself-discount-tiered": {
+        "additions": 18691,
+        "deletions": 0
+      },
+      "LittleMight-hq/beat-claude": {
+        "additions": 948,
+        "deletions": 60
+      },
+      "LittleMight-hq/minutes-assistant-studio": {
+        "additions": 13834,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-studio": {
+        "additions": 449,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-knox": {
+        "additions": 434,
+        "deletions": 0
+      },
+      "LittleMight-hq/openclaw-workspace-main": {
+        "additions": 432,
+        "deletions": 0
+      },
+      "LittleMight-hq/home-docs": {
+        "additions": 1108,
+        "deletions": 0
+      },
+      "LittleMight-hq/clawd": {
+        "additions": 592,
+        "deletions": 0
+      }
+    },
+    "2026-10-18": {
+      "BestSelf-Company/helm-native": {
+        "additions": 43187,
+        "deletions": 2045
+      }
+    }
+  }
+}
