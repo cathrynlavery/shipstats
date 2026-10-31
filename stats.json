@@ -1,0 +1,269 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-10-31T08:12:00.374Z",
+  "today": {
+    "date": "2026-10-31",
+    "total": 9062,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 667,
+        "deletions": 1
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 8395,
+        "deletions": 381
+      }
+    }
+  },
+  "week": {
+    "total": 795787,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 153098,
+        "deletions": 3691
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 17117,
+        "deletions": 1154
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 10650,
+        "deletions": 1768
+      },
+      "cathrynlavery/codex-skill": {
+        "additions": 34,
+        "deletions": 26
+      },
+      "cathrynlavery/codex-build": {
+        "additions": 18,
+        "deletions": 14
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 50,
+        "deletions": 1
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 527466,
+        "deletions": 5766
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 1506,
+        "deletions": 1781
+      },
+      "bestselfco/focus-bestself": {
+        "additions": 17420,
+        "deletions": 3632
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 114,
+        "deletions": 29
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 45772,
+        "deletions": 365
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 49,
+        "deletions": 19
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 188,
+        "deletions": 10
+      },
+      "RonanRx/pharmacy-registration": {
+        "additions": 22108,
+        "deletions": 142
+      },
+      "mixlayer/fern-docs": {
+        "additions": 7,
+        "deletions": 1
+      },
+      "mixlayer/mixlayer": {
+        "additions": 56,
+        "deletions": 6
+      },
+      "mixlayer/console-v3": {
+        "additions": 134,
+        "deletions": 12
+      }
+    }
+  },
+  "byDay": {
+    "2026-10-31": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 667,
+        "deletions": 1
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 8395,
+        "deletions": 381
+      }
+    },
+    "2026-10-30": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 4323,
+        "deletions": 122
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 8722,
+        "deletions": 773
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 10,
+        "deletions": 0
+      },
+      "cathrynlavery/codex-skill": {
+        "additions": 34,
+        "deletions": 26
+      },
+      "cathrynlavery/codex-build": {
+        "additions": 18,
+        "deletions": 14
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 50,
+        "deletions": 1
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 1415,
+        "deletions": 406
+      }
+    },
+    "2026-10-29": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 6742,
+        "deletions": 49
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 6624,
+        "deletions": 469
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 401,
+        "deletions": 802
+      },
+      "bestselfco/focus-bestself": {
+        "additions": 17420,
+        "deletions": 3632
+      }
+    },
+    "2026-10-28": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 91239,
+        "deletions": 62
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 51,
+        "deletions": 1
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 24158,
+        "deletions": 3863
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 1105,
+        "deletions": 979
+      }
+    },
+    "2026-10-27": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 5859,
+        "deletions": 183
+      },
+      "RonanRx/ronanrx-core": {
+        "additions": 63,
+        "deletions": 28
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1200,
+        "deletions": 171
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 492481,
+        "deletions": 532
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 23816,
+        "deletions": 365
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 49,
+        "deletions": 19
+      }
+    },
+    "2026-10-26": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 4419,
+        "deletions": 154
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 2387,
+        "deletions": 533
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 1907,
+        "deletions": 405
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 111,
+        "deletions": 2
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 21956,
+        "deletions": 0
+      },
+      "RonanRx/pharmacy-registration": {
+        "additions": 22108,
+        "deletions": 142
+      }
+    },
+    "2026-10-25": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 37985,
+        "deletions": 2992
+      },
+      "mixlayer/fern-docs": {
+        "additions": 7,
+        "deletions": 1
+      },
+      "mixlayer/mixlayer": {
+        "additions": 46,
+        "deletions": 4
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 3045,
+        "deletions": 265
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 666,
+        "deletions": 39
+      },
+      "mixlayer/console-v3": {
+        "additions": 134,
+        "deletions": 12
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 77,
+        "deletions": 8
+      }
+    },
+    "2026-10-24": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 1864,
+        "deletions": 128
+      },
+      "mixlayer/mixlayer": {
+        "additions": 10,
+        "deletions": 2
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 4008,
+        "deletions": 799
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 215,
+        "deletions": 52
+      }
+    }
+  }
+}
