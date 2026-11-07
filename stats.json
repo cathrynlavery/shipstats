@@ -1,0 +1,387 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-11-07T08:12:09.638Z",
+  "today": {
+    "date": "2026-11-07",
+    "total": 2625,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 228,
+        "deletions": 0
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1980,
+        "deletions": 2
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 270,
+        "deletions": 60
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 147,
+        "deletions": 2
+      }
+    }
+  },
+  "week": {
+    "total": 15086002,
+    "byRepo": {
+      "mixlayer/mixlayer": {
+        "additions": 1471,
+        "deletions": 62
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 47670,
+        "deletions": 1114
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 21268,
+        "deletions": 695
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 14194654,
+        "deletions": 185906
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 31118,
+        "deletions": 6334
+      },
+      "BestSelf-Company/helm-emails": {
+        "additions": 2135,
+        "deletions": 0
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 1288,
+        "deletions": 1334
+      },
+      "LittleMight-hq/yapstudio-site": {
+        "additions": 1892,
+        "deletions": 0
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 1034,
+        "deletions": 93
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 489,
+        "deletions": 343
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 642521,
+        "deletions": 15285
+      },
+      "LittleMight-hq/littlemight-club": {
+        "additions": 174,
+        "deletions": 6
+      },
+      "RonanRx/mocks": {
+        "additions": 63964,
+        "deletions": 516
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 57,
+        "deletions": 0
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 56632,
+        "deletions": 9804
+      },
+      "mixlayer/mixlayer-www-v2": {
+        "additions": 807,
+        "deletions": 3
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 914,
+        "deletions": 293
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 36,
+        "deletions": 12
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 1383,
+        "deletions": 41
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 147,
+        "deletions": 2
+      },
+      "LittleMight-hq/littlemight-club-placeholder": {
+        "additions": 19,
+        "deletions": 0
+      },
+      "BestSelf-Company/bestself-grok": {
+        "additions": 14302,
+        "deletions": 0
+      },
+      "mixlayer/cli": {
+        "additions": 935,
+        "deletions": 0
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 1092,
+        "deletions": 120
+      }
+    }
+  },
+  "byDay": {
+    "2026-11-06": {
+      "mixlayer/mixlayer": {
+        "additions": 383,
+        "deletions": 54
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 10673,
+        "deletions": 361
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 961,
+        "deletions": 32
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 1069791,
+        "deletions": 17352
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 1476,
+        "deletions": 169
+      },
+      "BestSelf-Company/helm-emails": {
+        "additions": 2135,
+        "deletions": 0
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 1156,
+        "deletions": 1302
+      },
+      "LittleMight-hq/yapstudio-site": {
+        "additions": 1892,
+        "deletions": 0
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 490,
+        "deletions": 70
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 489,
+        "deletions": 311
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 641486,
+        "deletions": 14933
+      },
+      "LittleMight-hq/littlemight-club": {
+        "additions": 152,
+        "deletions": 2
+      }
+    },
+    "2026-10-12": {
+      "mixlayer/mixlayer": {
+        "additions": 383,
+        "deletions": 6
+      }
+    },
+    "2026-11-03": {
+      "mixlayer/mixlayer": {
+        "additions": 705,
+        "deletions": 2
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 9351,
+        "deletions": 361
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1126,
+        "deletions": 121
+      },
+      "RonanRx/mocks": {
+        "additions": 63964,
+        "deletions": 516
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 12655897,
+        "deletions": 150131
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 18695,
+        "deletions": 5628
+      },
+      "RonanRx/scale.ronanrx.com": {
+        "additions": 132,
+        "deletions": 32
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 0,
+        "deletions": 32
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 57,
+        "deletions": 0
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 109,
+        "deletions": 3
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 12003,
+        "deletions": 1623
+      },
+      "mixlayer/mixlayer-www-v2": {
+        "additions": 807,
+        "deletions": 3
+      },
+      "cathrynlavery/shiprank": {
+        "additions": 914,
+        "deletions": 293
+      },
+      "RonanRx/elitecarepharmacy.net": {
+        "additions": 36,
+        "deletions": 12
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 690,
+        "deletions": 19
+      }
+    },
+    "2026-11-07": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 228,
+        "deletions": 0
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1980,
+        "deletions": 2
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 270,
+        "deletions": 60
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 147,
+        "deletions": 2
+      }
+    },
+    "2026-11-05": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 14625,
+        "deletions": 248
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 39,
+        "deletions": 43
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 468003,
+        "deletions": 18341
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 1273,
+        "deletions": 85
+      },
+      "mvanhorn/cli-printing-press": {
+        "additions": 544,
+        "deletions": 23
+      },
+      "LittleMight-hq/littlemight-club": {
+        "additions": 22,
+        "deletions": 4
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 615,
+        "deletions": 1107
+      },
+      "LittleMight-hq/littlemight-club-placeholder": {
+        "additions": 19,
+        "deletions": 0
+      }
+    },
+    "2026-11-04": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 5323,
+        "deletions": 91
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 16541,
+        "deletions": 478
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 6747,
+        "deletions": 360
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 20941,
+        "deletions": 4877
+      },
+      "BestSelf-Company/bestself-grok": {
+        "additions": 14302,
+        "deletions": 0
+      },
+      "mixlayer/cli": {
+        "additions": 935,
+        "deletions": 0
+      }
+    },
+    "2026-11-02": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 7182,
+        "deletions": 53
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 588,
+        "deletions": 4
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 693,
+        "deletions": 22
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 2784,
+        "deletions": 82
+      },
+      "mvanhorn/printing-press-library": {
+        "additions": 926,
+        "deletions": 349
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 6648,
+        "deletions": 552
+      },
+      "RonanRx/printing-press-library": {
+        "additions": 693,
+        "deletions": 22
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 772,
+        "deletions": 44
+      }
+    },
+    "2026-11-01": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 288,
+        "deletions": 0
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 33,
+        "deletions": 15
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 143,
+        "deletions": 10
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 16424,
+        "deletions": 1644
+      },
+      "LittleMight-hq/packshot": {
+        "additions": 320,
+        "deletions": 76
+      }
+    },
+    "2026-10-31": {
+      "LittleMight-hq/framepup": {
+        "additions": 1,
+        "deletions": 1
+      }
+    }
+  }
+}
