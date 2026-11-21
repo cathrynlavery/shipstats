@@ -1,0 +1,167 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-11-21T08:12:40.216Z",
+  "today": {
+    "date": "2026-11-21",
+    "total": 758,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 178,
+        "deletions": 4
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 580,
+        "deletions": 63
+      }
+    }
+  },
+  "week": {
+    "total": 253229,
+    "byRepo": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 114445,
+        "deletions": 120449
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 4404,
+        "deletions": 3428
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 27406,
+        "deletions": 1
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 5378,
+        "deletions": 1781
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 90522,
+        "deletions": 2
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 603,
+        "deletions": 14
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 4388,
+        "deletions": 334
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 6083,
+        "deletions": 11758
+      }
+    }
+  },
+  "byDay": {
+    "2026-11-21": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 178,
+        "deletions": 4
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 580,
+        "deletions": 63
+      }
+    },
+    "2026-11-20": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 92019,
+        "deletions": 88
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 2386,
+        "deletions": 2881
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 2892,
+        "deletions": 1
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 3726,
+        "deletions": 1689
+      },
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 90522,
+        "deletions": 2
+      }
+    },
+    "2026-11-19": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 6364,
+        "deletions": 711
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 1428,
+        "deletions": 484
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 489,
+        "deletions": 0
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 603,
+        "deletions": 14
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 1652,
+        "deletions": 92
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 4043,
+        "deletions": 316
+      }
+    },
+    "2026-11-18": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 9635,
+        "deletions": 119616
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 193,
+        "deletions": 4
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 734,
+        "deletions": 92
+      }
+    },
+    "2026-11-17": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 1860,
+        "deletions": 6
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 10,
+        "deletions": 0
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 76,
+        "deletions": 7
+      }
+    },
+    "2026-11-16": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 2320,
+        "deletions": 13
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 24025,
+        "deletions": 0
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 76,
+        "deletions": 7
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 5349,
+        "deletions": 11666
+      }
+    },
+    "2026-11-15": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 2069,
+        "deletions": 11
+      }
+    }
+  }
+}
