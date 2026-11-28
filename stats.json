@@ -1,0 +1,281 @@
+{
+  "username": "cathrynlavery",
+  "generated": "2026-11-28T08:13:03.522Z",
+  "today": {
+    "date": "2026-11-28",
+    "total": 3646,
+    "byRepo": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 1527,
+        "deletions": 0
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 2023,
+        "deletions": 432
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 96,
+        "deletions": 0
+      }
+    }
+  },
+  "week": {
+    "total": 357311,
+    "byRepo": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 123603,
+        "deletions": 6649
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 10897,
+        "deletions": 859
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 191883,
+        "deletions": 12215
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 2995,
+        "deletions": 487
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1882,
+        "deletions": 76
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 2972,
+        "deletions": 686
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 7561,
+        "deletions": 7
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 330,
+        "deletions": 40
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 8351,
+        "deletions": 7374
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 6471,
+        "deletions": 4200
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 287,
+        "deletions": 34
+      },
+      "LittleMight-hq/diagramdesign-dev": {
+        "additions": 70,
+        "deletions": 68
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 1,
+        "deletions": 1
+      },
+      "cathrynlavery/skills": {
+        "additions": 4,
+        "deletions": 0
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 4,
+        "deletions": 0
+      }
+    }
+  },
+  "byDay": {
+    "2026-11-28": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 1527,
+        "deletions": 0
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 2023,
+        "deletions": 432
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 96,
+        "deletions": 0
+      }
+    },
+    "2026-11-27": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 20343,
+        "deletions": 271
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 2017,
+        "deletions": 76
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 4245,
+        "deletions": 77
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 80,
+        "deletions": 43
+      }
+    },
+    "2026-11-26": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 16088,
+        "deletions": 1012
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 84248,
+        "deletions": 11352
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 162,
+        "deletions": 88
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 427,
+        "deletions": 38
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 122,
+        "deletions": 9
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 3940,
+        "deletions": 4
+      }
+    },
+    "2026-11-24": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 9359,
+        "deletions": 5067
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 3233,
+        "deletions": 3
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 87752,
+        "deletions": 221
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 344,
+        "deletions": 18
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 51,
+        "deletions": 3
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 136,
+        "deletions": 17
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 6,
+        "deletions": 4
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 21,
+        "deletions": 1
+      }
+    },
+    "2026-11-23": {
+      "LittleMight-hq/printing-press-library-private": {
+        "additions": 76286,
+        "deletions": 299
+      },
+      "cathrynlavery/dress-code": {
+        "additions": 3624,
+        "deletions": 348
+      },
+      "LittleMight-hq/dot-agents": {
+        "additions": 12149,
+        "deletions": 558
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 469,
+        "deletions": 3
+      },
+      "cathrynlavery/yap-studio": {
+        "additions": 1455,
+        "deletions": 38
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 2114,
+        "deletions": 636
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 87,
+        "deletions": 3
+      },
+      "LittleMight-hq/framepup": {
+        "additions": 287,
+        "deletions": 34
+      },
+      "LittleMight-hq/littlemight": {
+        "additions": 8345,
+        "deletions": 7370
+      },
+      "BestSelf-Company/goalgetter": {
+        "additions": 6450,
+        "deletions": 4199
+      },
+      "LittleMight-hq/diagramdesign-dev": {
+        "additions": 70,
+        "deletions": 68
+      },
+      "cathrynlavery/cathrynlavery": {
+        "additions": 1,
+        "deletions": 1
+      }
+    },
+    "2026-11-25": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 2198,
+        "deletions": 4
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 941,
+        "deletions": 268
+      },
+      "cathrynlavery/diagram-design": {
+        "additions": 279,
+        "deletions": 37
+      },
+      "BestSelf-Company/helm-native": {
+        "additions": 600,
+        "deletions": 24
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 3534,
+        "deletions": 0
+      }
+    },
+    "2026-11-22": {
+      "LittleMight-hq/dot-agents": {
+        "additions": 1195,
+        "deletions": 3
+      },
+      "BestSelf-Company/bestself-theme": {
+        "additions": 133,
+        "deletions": 7
+      },
+      "cathrynlavery/skills": {
+        "additions": 4,
+        "deletions": 0
+      },
+      "cathrynlavery/tailscale-superpowers": {
+        "additions": 4,
+        "deletions": 0
+      }
+    },
+    "2026-11-21": {
+      "BestSelf-Company/bestself-theme": {
+        "additions": 866,
+        "deletions": 60
+      },
+      "BestSelf-Company/bestself-workspace": {
+        "additions": 0,
+        "deletions": 0
+      }
+    }
+  }
+}
